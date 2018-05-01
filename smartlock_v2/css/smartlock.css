@@ -1,0 +1,138 @@
+body {
+	background-color: #3c2b2b;
+	padding: 0;
+	margin: 0;
+	font-family: 'Microsoft Yahei', Tahoma, Arial, Simsun;
+	font-size: 14px;
+	color: #fff0f0;
+	line-height: 2em;
+}
+
+a:link, a:active, a:visited {
+	color: #ffef82;
+	text-decoration: none;
+}
+a:hover {
+	color: #ffef82;
+	text-decoration: underline;
+}
+
+img.logincaptcha {
+	border: none;
+	border-radius: 5px;
+	width: 300px;
+	height: 50px;
+	margin-bottom: 15px;
+}
+
+input {
+	box-sizing: border-box;
+	padding: 10px 18px;
+	font-size: 16px;
+	line-height: 1em;
+	border-radius: 5px;
+	height: 36px;
+}
+	input.inputtext {
+		border: 3px solid #816e6e;
+		background-color: #43312f;
+		color: #b8bfcf;
+		margin-bottom: 15px;
+	}
+		input.inputtext.s {
+			font-size: 14px;
+			padding: 8px 14px;
+			border-width: 2px;
+			border-radius: 3px;
+			height: 30px;
+		}
+	input.inputbutton {
+		background-color: #816E6E;
+		color: #ffffff;
+		border: none;
+	}
+		input.inputbutton.s {
+			font-size: 14px;
+			padding: 8px 14px;
+			border-width: 2px;
+			border-radius: 3px;
+			height: 30px;
+		}
+
+table.userlist {
+	width: 100%;
+	font-size: 12px;
+	color: #999999;
+	white-space: nowrap;
+}
+	table.userlist thead {
+		color: #ffffff;
+	}
+
+.cl {
+	clear: both;
+}
+.titlerow {
+	font-size: 48px;
+	text-align: center;
+	color: white;
+	margin: 80px 0;
+}
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+.ac {
+	text-align: center;
+}
+	.colleft {
+		width: 300px;
+	}
+		.pagesign {
+			color: #a08989;
+			float: right;
+			border: 5px solid #a08989;
+			border-radius: 50%;
+			width: 170px;
+			height: 170px;
+			text-align: center;
+		}
+			.pagesign span {
+				font-size: 150px;
+				line-height: 150px;
+			}
+	.colright {
+		width: 670px;
+		float: right;
+	}
+		.btnfloor, .btnroom {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			margin-top: 40px;
+		}
+			.btnfloor li, .btnroom li, .btninput {
+				font-size: 18px;
+				display: inline-block;
+				padding: 8px 50px;
+				margin: 0 15px 15px 0;
+				border: 3px solid #816e6e;
+				background-color: #43312f;
+				cursor: auto;
+				color: #b8bfcf;
+				border-radius: 10px;
+			}
+			.btnroom li {
+				padding: 8px 40px;
+			}
+				.btnroom li span {
+					font-size: 19px;
+				}
+					.btnroom li span.off {
+						color: #513a39;
+					}
+				.btnfloor li.over, .btnroom li.over, .btninput.over {
+					background-color: #6c4a4a;
+					color: white;
+					cursor: pointer;
+				}
